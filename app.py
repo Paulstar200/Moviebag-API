@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
+# List of movies
 movies = [
     {
         "name": "Shawshank Redemption",
